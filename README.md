@@ -20,7 +20,7 @@ extranjerIA/
 │   ├── pdfs/                 # Documentos PDF utilizados en el sistema
 │   ├── faiss_index/           # Índices FAISS generados
 │   ├── evaluations/           # Resultados de las evaluaciones del RAG
-│   └── corpus/                # Corpus de preguntas y respuestas
+│   └── corpus_extranjerIA_muestra.xlsx                # Corpus de preguntas y respuestas
 ├── notebooks/                 # Notebooks de desarrollo y evaluación
 ├── src/                       # Código fuente del proyecto
 │   ├── local_indexing_faiss.py      # Script para indexación de documentos
