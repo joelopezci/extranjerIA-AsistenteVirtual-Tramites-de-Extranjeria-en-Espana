@@ -18,7 +18,7 @@ from src.get_embedding_function import get_embedding_function
 from transformers import pipeline, AutoModelForCausalLM, AutoTokenizer
 
 # Configurar la clave de API de Groq
-os.environ["GROQ_API_KEY"] = "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"
+os.environ["GROQ_API_KEY"] = "Here your GROQ API Key"
 
 
 def get_faiss_path(embedding_provider, model_name):
