@@ -92,17 +92,20 @@ El sistema fue evaluado con un **corpus de 40 preguntas** extraídas de document
 Se compararon respuestas generadas por diferentes **modelos de lenguaje y embeddings**, utilizando **similitud del coseno** como métrica principal.  
 
 ### 🔹 Modelos evaluados:
+Se compararon 6 configuraciones de modelos de embeddings y LLMs:
 
-| Modelo de Embeddings | LLM Utilizado | Score Promedio |
-|----------------------|--------------|---------------|
-| distiluse-base-multilingual-cased-v1 | mixtral-8x7b-32768 | **0.82** |
-| distiluse-base-multilingual-cased-v1 | llama-3.2-3b-preview | 0.78 |
-| distiluse-base-multilingual-cased-v1 | llama-3.2-1b-preview | 0.76 |
-| multilingual-e5-large-ft | mixtral-8x7b-32768 | **0.85** |
-| multilingual-e5-large-ft | llama-3.2-3b-preview | 0.79 |
-| multilingual-e5-large-ft | llama-3.2-1b-preview | 0.77 |
+| Modelo de Embeddings                                              | Modelo LLM               | Score Promedio | Preguntas Evaluadas |
+|-------------------------------------------------------------------|--------------------------|----------------|---------------------|
+| mrm8488/multilingual-e5-large-ft-sts-spanish-matryoshka-768-16-5e | llama-3.2-3b-preview     | 0.62046        | 40                  |
+| mrm8488/multilingual-e5-large-ft-sts-spanish-matryoshka-768-16-5e | mixtral-8x7b-32768       | 0.609593       | 40                  |
+| distiluse-base-multilingual-cased-v1                              | mixtral-8x7b-32768       | 0.604143       | 40                  |
+| distiluse-base-multilingual-cased-v1                              | llama-3.2-3b-preview     | 0.603706       | 40                  |
+| distiluse-base-multilingual-cased-v1                              | llama-3.2-1b-preview     | 0.570743       | 40                  |
+| mrm8488/multilingual-e5-large-ft-sts-spanish-matryoshka-768-16-5e | llama-3.2-1b-preview     | 0.55557        | 40                  |
 
-🔹 **Conclusión**: La combinación **multilingual-e5-large-ft + Mixtral-8x7b** obtuvo el mejor rendimiento en términos de similitud con respuestas humanas.
+🔹 **Conclusión**: La combinación **multilingual-e5-large-ft + Llama-3.2** obtuvo el mejor rendimiento en términos de similitud con respuestas humanas.
+
+**Otros resultados en desarrollo...**
 
 ## 📢 Contribuciones y Mejora del Proyecto
 Este proyecto está en desarrollo activo. Puedes contribuir de la siguiente forma:
