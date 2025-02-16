@@ -1,0 +1,11 @@
+# Entorno virtual
+venv/
+__pycache__/
+
+# Archivos de datos
+data/db/
+*.pkl
+*.sqlite
+
+# Archivos temporales
+*.log
