@@ -37,5 +37,9 @@ extranjerIA/
 ---
 
 ## 📌 Instalación y Configuración
-pruebaaaa
 
+### 🔹 1️⃣ Clonar el Repositorio
+Para obtener una copia del proyecto en tu máquina local:
+```bash
+git clone <url-del-repositorio>
+cd extranjerIA
