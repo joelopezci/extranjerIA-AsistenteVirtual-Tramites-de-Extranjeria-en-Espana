@@ -32,6 +32,7 @@ extranjerIA/
 ├── README.md                   # Descripción del proyecto
 ├── requirements.txt             # Dependencias necesarias
 └── venv/                        # Entorno virtual (opcional)
+```
 
 ---
 
