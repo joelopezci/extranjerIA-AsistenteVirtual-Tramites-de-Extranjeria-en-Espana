@@ -1,6 +1,6 @@
-# 📌 extranjerIA: Asistente Virtual para Trámites de Extranjería en España 🇪🇸
+# 📌 extranjerIA: Asistente Virtual para Trámites de Extranjería en España
 
-**extranjerIA** es un asistente virtual basado en **Retrieval-Augmented Generation (RAG)** diseñado para facilitar el acceso a información sobre trámites de extranjería en España. Utiliza **FAISS** para la indexación y recuperación de documentos y **modelos de lenguaje (LLMs)** a través de **Groq y Hugging Face** para la generación de respuestas precisas.
+**extranjerIA** es un asistente virtual basado en **Retrieval-Augmented Generation (RAG)** diseñado para facilitar el acceso a información sobre trámites de extranjería en España. Utiliza **FAISS** para la indexación y recuperación de documentos y **modelos de lenguaje (LLMs)** a través de **Hugging Face y Groq** para la generación de respuestas precisas.
 
 ---
 
@@ -49,7 +49,6 @@ cd extranjerIA
 Se recomienda usar un entorno virtual para gestionar dependencias.
 ```bash
 python -m venv venv
-source venv/bin/activate  # En macOS/Linux
 venv\Scripts\activate     # En Windows
 ```
 
@@ -115,7 +114,7 @@ Este proyecto está en desarrollo activo. Puedes contribuir de la siguiente form
 ✅ **Probando nuevos modelos**: Comparte resultados con diferentes embeddings o LLMs.
 
 ## 📜 Licencia
-Este proyecto está bajo la licencia **MIT**, lo que permite su uso y modificación libre con atribución adecuada.
+Derechos reservados.
 
 ## 📌 Referencias
 1. Lewis, P., et al. (2020). **Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks**. *arXiv preprint arXiv:2005.11401*.
